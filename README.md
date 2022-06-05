@@ -47,6 +47,26 @@ A este punto, se logró tener una VM dentro otra VM.
 
 ### Practica 2
 
+En esta practica se usara un _App Service_, el cual habilita servicios web de Azure. En pocas palabras, es un servicio de hosting para paginas web, por lo que podria ser considerado como una IaaS.
 
+Para realizar la practica, primero tuvimos que crear el recurso _App Service_, cuidando que la pila de entorno sea PHP 8.0 y cambiando su tamaño para que sea gratis.
 
+![Captura De la Creacion del Recurso](CreacionRecurso.png)
 
+A continuacion, lo comun seria crear el codigo de la pagina en .html, sin embargo por motivos de tiempo nosotros usamos un repositorio web de GitHub.
+
+![Captura del repositorio](Repositorio.png)
+
+Luego, fue necesario implementar en nuestro recurso de Azure una opcion para que tome los archivos del repositorio remoto y los use para la pagina Web.
+
+![Implementacion Web](ImplementacionWeb.png)
+
+Una vez hecho esto, se puede observar en la pagina del repositorio, en la pestaña "Activos" como se implementa nuestra pagina web.
+
+![Finalizacion de la implementacion](ConfiguracionRecurso.png)
+
+Finalmente, solo accedemos a nuestra pagina web creada y podremos observar el resultado final
+
+![Captura de la Pagina Web](PaginaWeb.png)
+
+Con esto finalizan las dos practicas correspondientes a esta sesión.
